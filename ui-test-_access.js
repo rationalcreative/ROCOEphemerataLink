@@ -4,7 +4,7 @@ Object.entries({
 	ROCOEphemerataLink: '.ROCOEphemerataLink',
 	ROCOEphemerataLinkImage: '.ROCOEphemerataLinkImage',
 }).map(function (e) {
-	return global[e.shift()]  = e.pop();
+	return global[e.shift()] = e.pop();
 });
 
 describe('ROCOEphemerataLink_Access', function () {
