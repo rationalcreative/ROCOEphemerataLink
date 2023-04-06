@@ -15,7 +15,7 @@ kDefaultRoute.OLSKRouteLanguageCodes.forEach(function (OLSKRoutingLanguage) {
 		});
 
 		it('localizes ROCOEphemerataLink', function () {
-			browser.assert.attribute(ROCOEphemerataLink, 'title', uLocalized('ROCOEphemerataLinkText'));
+			return browser.assert.attribute(ROCOEphemerataLink, 'title', uLocalized('ROCOEphemerataLinkText'));
 		});
 
 	});

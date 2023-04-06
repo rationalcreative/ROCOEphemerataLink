@@ -14,11 +14,11 @@ describe('ROCOEphemerataLink_Access', function () {
 	});
 
 	it('shows ROCOEphemerataLink', function () {
-		browser.assert.elements(ROCOEphemerataLink, 1);
+		return browser.assert.elements(ROCOEphemerataLink, 1);
 	});
 
 	it('shows ROCOEphemerataLinkImage', function () {
-		browser.assert.elements(ROCOEphemerataLinkImage, 1);
+		return browser.assert.elements(ROCOEphemerataLinkImage, 1);
 	});
 
 });
